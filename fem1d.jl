@@ -3,7 +3,7 @@
 
 # 2 point quadrature rule
 function Quadrature() #Assume two point quadrature
-    return 2, [1,1], [-1/3,1/3]
+    return 2, [1,1], [-1/sqrt(3.),1/sqrt(3.)]
 end
 
 # linear shape functions
